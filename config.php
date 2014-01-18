@@ -15,7 +15,7 @@ define("CURRENT_DIR", $current_dir);
 //var_dump(CURRENT_DIR);
 //var_dump($this_dir);
 
-define('DSN', 'Mysql:host=localhost;dbname=webservice_db');
+define('DSN', 'mysql:host=localhost;dbname=webservice_db');
 define('DB_USER', 'webservice_user');
 define('DB_PASSWORD', 'DNxDfdEj5raVDYGV');
 define('PASSWORD_KEY', 'agt;rifdoh;99');

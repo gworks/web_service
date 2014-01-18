@@ -3,7 +3,7 @@
 
 function connectDb(){
 	try{
-		return new POD(DSN, DB_USER, DB_PASSWORD);
+		return new PDO(DSN, DB_USER, DB_PASSWORD);
 	} catch (PDOException $e){
 		echo $e->getMessage();
 		exit;
