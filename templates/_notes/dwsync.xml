@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="footer.tpl" server="158.199.200.69//html/web_service/" local="3472642671" remote="319783739116509208" Dst="-1" /><file name="header.tpl" server="158.199.200.69//html/web_service/" local="3472643018" remote="319783739116509208" Dst="-1" /><file name="index.tpl" server="158.199.200.69//html/web_service/" local="3472643000" remote="319783739116509208" Dst="-1" /></dwsync>
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="footer.tpl" server="158.199.200.69//html/web_service/" local="3472642671" remote="319783739116509208" />
+<file name="header.tpl" server="158.199.200.69//html/web_service/" local="3472643018" remote="319783739116509208" />
+<file name="index.tpl" server="158.199.200.69//html/web_service/" local="3472643000" remote="319783739116509208" />
+<file name="login.tpl" server="158.199.200.69//html/web_service/" local="130343893716638358" remote="130343911800000000" />
+</dwsync>
