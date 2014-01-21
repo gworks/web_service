@@ -3,9 +3,9 @@ require_once('config.php');
 require_once('functions.php');
 
 //utf-8設定
-mb_internal_encoding("utf-8");  
-mb_http_input("auto");   
-mb_http_output("utf-8");  
+mb_internal_encoding("utf-8");
+mb_http_input("auto");
+mb_http_output("utf-8");
 
 // Smartyライブラリを読み込みます
 //var_dump(SERVICE_DOC_ROOT);

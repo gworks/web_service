@@ -3,9 +3,9 @@
 CREATE DATABASE `webservice_db` ;
 
 
-GRANT ALL ON `webservice_db` . * TO 'webservice_user'@'localhost' IDENTIFIED BY 'DNxDfdEj5raVDYGV';
+GRANT ALL ON `aa153owtf2_wsdb` . * TO 'webservice_user'@'localhost' IDENTIFIED BY 'DNxDfdEj5raVDYGV';
 
-CREATE TABLE `webservice_db`.`users` (
+CREATE TABLE `users` (
 `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY ,
 `name` VARCHAR( 255 )  NULL ,
 `email` VARCHAR( 255 )  NULL ,

@@ -5,20 +5,6 @@ require('setup.php');
 
 session_start();
 
-function setToken(){
-	$token = sha1(uniqid(mt_rand(), true));
-	$_SESSION['token'] = $token;
-	var_dump($_SESSION['token']);
-}
-
-function checkToken(){
-	if(empty($_SESSION['token']) || ($_SESSION['token'] != $_POST['token'])){
-		echo "不正なPOSTが行われました。";
-		var_dump($_SESSION['token']);
-		var_dump($_POST['token']);
-		exit;
-	}
-}
 
 function emailExists($email, $dbh){
 	$sql = "select * from users where email = :email limit 1";
